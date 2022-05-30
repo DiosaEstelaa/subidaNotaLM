@@ -1,24 +1,24 @@
 body {
     background: rgb(255, 255, 255);
     background-attachment: fixed;
+    width: 100%;
 }
 
 section {
 
-    border: 2px solid black;
-    margin-left: 150px;
-    margin-right:150px;
-    height: 825px;
+    margin-left: 200px;
+    margin-right: 150px;
+    height: 860px;
 }
 
 img {
     width: 100%;
-    height: 30s0px;
+    height: 300px;
 }
 
 .column1 {
     float: left;
-    width: 30%;
+    width: 25%;
     padding: 10px;
     height: 800px;
     background: rgb(55, 55, 55);
@@ -26,8 +26,8 @@ img {
 }
 
 .column2 {
-    float: right;
-    width: 66%;
+    float: left;
+    width: 60%;
     padding: 10px;
     height: 800px;
     background: rgb(245, 245, 245);
@@ -40,7 +40,7 @@ img {
     clear: both;
 }
 
-.contacto{
+.contacto {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -48,17 +48,17 @@ img {
 
 }
 
-.idiomasIntereses{
+.idiomasIntereses {
 
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
-    
+
 }
 
-.cajaNegraTop{
+.cajaNegraTop {
 
-    background:rgb(55, 55, 55);
+    background: rgb(55, 55, 55);
     color: white;
     padding-top: 15px;
     padding-left: 15px;
@@ -68,7 +68,7 @@ img {
 
 }
 
-.bordeRedondeado{
+.bordeRedondeado {
 
     border: 1px solid black;
     background: rgb(216, 141, 0);
@@ -83,7 +83,64 @@ img {
 
 }
 
-.losCubitosNaranja{
+.losCubitosNaranja {
 
     width: 90%;
+}
+
+.skills {
+
+    padding-bottom: 120px;
+}
+
+
+
+.contactoConAlumno {
+    background: rgb(103, 103, 103);
+    width: 98%;
+    color: white;
+    padding-left: 20px;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+
+}
+
+.elcorreo {
+
+    height: 20px;
+    width:40%;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+}
+
+.elsalario {
+    margin-left: 20px;
+    height: 20px;
+    width: 40%;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+}
+
+.loscomentarios{
+    height: 50px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
+}
+
+.elboton{
+
+    height: 20px;
+    width: 90%;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 75, 75);
 }
