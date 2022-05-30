@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lope>
+
+<lope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="lopeSchema.xsd">
+
+
+
+    <Grupo>
+        <nombre>@$¡4</nombre>
+        <nivelEducativo>
+            <nombre>segundo</nombre>
+                <alumno>
+                    <tlf>123456788</tlf>
+                    <asignatura>
+                        <nombre>Programacion</nombre>
+                        <evaluacion>primera</evaluacion>
+                        <nota>7896</nota>
+                    </asignatura>
+                </alumno>
+        </nivelEducativo>
+    </Grupo>
+
+</lope>

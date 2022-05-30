@@ -4,10 +4,16 @@
 
 <xs:element name="nombre" type="xs:string"/>
 <xs:element name="evaluacion" type="xs:string"/>
-<xs:element name="nota" type="xs:integer"/>
+<xs:element name="nota">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="suspenso|suficiente|notable|sobresaliente"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
 
 <!-- definimos alumno-->
-<xs:complexType name="tipoAlumno">
+<xs:complexType name="tipoAlumno" >
     <xs:sequence>
         <xs:element name="nombre" minOccurs="1">
             <xs:simpleType>
@@ -45,7 +51,7 @@
 <xs:element name="lope">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="Grupo" >
+            <xs:element name="Grupo"  minOccurs="0">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="nombre"  minOccurs="0"/>
@@ -53,7 +59,7 @@
                             <xs:complexType>
                                 <xs:sequence>
                                     <xs:element name="nombre" minOccurs="1"/>
-                                    <xs:element name="alumno" type="tipoAlumno"  />
+                                    <xs:element name="alumno" type="tipoAlumno" minOccurs="1" maxOccurs="unbounded"  />
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>

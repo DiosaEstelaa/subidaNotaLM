@@ -14,7 +14,7 @@
                     <asignatura>
                         <nombre>Sistemas informaticos</nombre>
                         <evaluacion>segunda</evaluacion>
-                        <nota>5</nota>
+                        <nota>sobresaliente</nota>
                     </asignatura>
                 </alumno>
                 <alumno>
@@ -23,7 +23,7 @@
                     <asignatura>
                         <nombre>Bases de Datps</nombre>
                         <evaluacion>tercera</evaluacion>
-                        <nota>7</nota>
+                        <nota>notable</nota>
                     </asignatura>
                 </alumno>
         </nivelEducativo>
@@ -39,7 +39,7 @@
                     <asignatura>
                         <nombre>Programacion</nombre>
                         <evaluacion>primera</evaluacion>
-                        <nota>6</nota>
+                        <nota>suficiente</nota>
                     </asignatura>
                 </alumno>
         </nivelEducativo>
