@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lope>
+
+<lope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="lopeSchema.xsd">
+
+    <Grupo>
+        <nombre>DAW</nombre>
+        <nivelEducativo>
+            <nombre>segundo</nombre>
+                <alumno>
+                    <nombre>Marcos</nombre>
+                    <tlf>123456789</tlf>
+                    <asignatura>
+                        <nombre>Sistemas informaticos</nombre>
+                        <evaluacion>segunda</evaluacion>
+                        <nota>5</nota>
+                    </asignatura>
+                </alumno>
+                <alumno>
+                    <nombre>Paco</nombre>
+                    <tlf>123456782</tlf>
+                    <asignatura>
+                        <nombre>Bases de Datps</nombre>
+                        <evaluacion>tercera</evaluacion>
+                        <nota>7</nota>
+                    </asignatura>
+                </alumno>
+        </nivelEducativo>
+    </Grupo>
+
+    <Grupo>
+        <nombre>ASIR</nombre>
+        <nivelEducativo>
+            <nombre>segundo</nombre>
+                <alumno>
+                    <nombre>Pepa</nombre>
+                    <tlf>123456788</tlf>
+                    <asignatura>
+                        <nombre>Programacion</nombre>
+                        <evaluacion>primera</evaluacion>
+                        <nota>6</nota>
+                    </asignatura>
+                </alumno>
+        </nivelEducativo>
+    </Grupo>
+
+</lope>
